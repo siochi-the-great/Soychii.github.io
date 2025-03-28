@@ -1,0 +1,248 @@
+
+hr{
+    width: 90%;
+    background-color: black;
+    height: 2px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+h1{
+    font-family: 'Bree Serif', serif;
+    color: #266975;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+body{
+    background: url('BackGround_City.png') no-repeat center center/cover;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    font-family: 'Helvetica World', sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    letter-spacing: normal;
+    margin: 0;
+    padding-bottom: 50px; /* Adjust the value as needed */
+    
+}
+
+.section_1 {
+    background-color: #cde0c9;
+    padding: 1px;
+    margin: 20px;
+    margin-top: -15px;
+    
+    
+}
+
+.section_2{
+    background-color: #cde0c9;
+    padding: 1px;
+    margin: 20px;
+    margin-top: -15px;
+    
+    
+}
+
+.section_3{
+    background-color: #cde0c9;
+    padding: 1px;
+    margin: 20px;
+    margin-top: -15px;
+    
+}
+
+
+.Childhood_years, .Teenage_years, .College_years {
+    height: 60px;
+    width: 260px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #b4d266;
+    border: none; 
+    outline: none; 
+}
+
+.Go_Top {
+    margin-left: auto;
+    margin-right: 35px; 
+    margin-bottom: 15px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    display: block; 
+    text-align: center;
+    background-color: #b4d266;
+    border: none; 
+    outline: none; 
+    
+}
+
+.go_top, .Home {
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    background-color:  #5ac3b6;
+    margin-left: 20px;
+    border: none; 
+    outline: none; 
+    
+    
+}
+
+.go_top a, .Home a {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    
+}
+
+
+.buttom {
+    display: flex;
+    gap: 50px;
+    margin-left: 25%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.Go_Top:hover, .go_top:hover, .Home:hover {
+    background-color: #5ac3b6;
+    
+}
+
+.img_2{
+    float: left;
+    height: 499px;
+    width: 900px;
+    padding-bottom: 120px;
+}
+
+img{
+    height: 820px;
+    width: 1480px;
+}
+
+.list_photos_2{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+.list_photos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.button_container {
+    position: absolute; 
+    top: 6%; 
+    right: 40px; 
+    transform: translateY(-20%); 
+    text-align: right; 
+}
+.head{
+    margin-top: 2px;
+    font-family: "garet", serif;
+    color: #266975;
+
+}
+
+.lists {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px; 
+    margin-top: -95px;
+    margin-right: 50px;
+}
+
+.lists a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.lists a::before {
+    content: "";
+    position: absolute;
+    top: -50px;  /* Expands background */
+    left: -10px;
+    right: -10px;
+    bottom: -30px;
+    background-color: #5ac3b6;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   
+}
+
+.lists a:hover::before {
+    opacity: 1;
+}
+
+.lists a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Helvetica World', sans-serif;
+    font-weight: bold;
+}
+
+.button_container1 {
+    margin-top: -240px;
+    margin-left: -25%;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    width: 100px;
+}
+
+
+
+.button_list {
+    all: unset;
+}
+
+.bio_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-end; 
+    position: absolute;
+    right: 10%; 
+    top: 33%; 
+}
+
+.para_pics{
+    float: left;
+    margin-right: 15px; 
+    width: 200px; 
+    height: 267px;
+    margin-left: 20px;
+}

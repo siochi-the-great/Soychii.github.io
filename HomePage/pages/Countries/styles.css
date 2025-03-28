@@ -1,0 +1,170 @@
+body{
+    background: url('BackGround_City.png') no-repeat center center/cover;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    font-family: 'Helvetica World', sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    letter-spacing: normal;
+    margin: 0;
+    padding-bottom: 50px; /* Adjust the value as needed */
+    
+}
+
+.head{
+    font-family: "garet", serif;
+    color: #266975;
+
+}
+
+.intro{
+    margin-bottom: -15px;
+    font-size: 250%;
+    margin-top: 150px; 
+    text-align: left; 
+    margin-left: 40%;
+    font-family: "Bree Serif", serif;
+    margin-top: 20px; /* Adjust for more spacing */
+}
+
+
+.desc {
+    
+    text-align: left;
+    font-size: large;
+    margin-left: 40%;
+    font-family: 'Helvetica World', sans-serif;
+}
+
+.button_container {
+    margin-top: -240px;
+    margin-left: -25%;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    width: 100px;
+}
+
+
+
+.button {
+    all: unset;
+}
+
+.lists {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px; /* This ensures a fixed gap between items */
+    margin-top: -70px;
+    margin-right: 50px;
+}
+
+.lists a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.lists a::before {
+    content: "";
+    position: absolute;
+    top: -50px;  /* Expands background */
+    left: -10px;
+    right: -10px;
+    bottom: -30px;
+    background-color: #5ac3b6;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   
+}
+
+.lists a:hover::before {
+    opacity: 1;
+}
+
+.lists a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Helvetica World', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 350%;
+}
+
+img{
+    
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+li {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  
+.description h3,
+.description li {
+    color: black; 
+    position: relative; 
+  }
+  
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.back_button {
+    height: 60px;
+    width: 260px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #b4d266;
+    border: none; 
+    outline: none; 
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-end; 
+    position: absolute;
+    right: 5%; 
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+
